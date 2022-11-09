@@ -21,11 +21,12 @@
   --clr-dark: #000;
   /* --clr-accent: ; */
 
+   /* -----renejmat ova govna----- */
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
-  --fs-h3: 1.35rem;
+  --fs-h3: 1rem;
   --fs-footer: 0.8rem;
-  --fs-smallPrint: 0.7rem;
+  --fs-smallPrint: 0.875rem;
   --fs-body: 1rem;
 
   --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25), 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
@@ -53,7 +54,7 @@ body {
 }
 
 .App {
-  min-height: 100vh;
+  min-height: 300vh;
   display: flex;
   flex-direction: column;
 }
@@ -100,24 +101,31 @@ body {
 .explore__list--item,
 .legal__list--item,
 .social__list--item {
-  margin-bottom: 0.2em;
+  line-height: 1.714;
   font-size: var(--fs-footer);
   font-weight: var(--fw-bold);
+}
+
+.explore__list--item:not(:last-child),
+.legal__list--item:not(:last-child),
+.social__list--item:not(:last-child)
+{
+  margin-bottom: 4px;
 }
 
 .footer__h {
   font-weight: var(--fw-extraBold);
   font-size: var(--fs-h3);
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 
-.footer__authors,
 .footer__copyright {
-  font-size: var(--fs-smallPrint);
+  font-size: 1rem;
 }
 
 .footer__authors {
   font-weight: var(--fw-semiBold);
+  font-size: 0.75rem;
 }
 
 .footer__copyright {
@@ -132,14 +140,14 @@ body {
 
   .footer__copyright {
     margin-top: auto;
-    font-size: var(--fs-footer);
+    font-size: 1rem;
   }
 
   .explore__list--item,
   .legal__list--item,
   .social__list--item {
+   
     font-size: var(--fs-smallPrint);
-    margin-bottom: 0.5em;
   }
 }
 
