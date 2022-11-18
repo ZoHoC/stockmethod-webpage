@@ -2,6 +2,8 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="grid__container--footer">
+        <span className="footer__statement">We help all traders become profitable and consistent
+          traders in the stock market.</span>
         <div className="copyright">
           <span className="footer__logo">LOGO Stock Method</span>
           <span className="footer__copyright">Copyright © 2022 Stock Method</span>
