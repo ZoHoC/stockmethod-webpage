@@ -1,40 +1,43 @@
+import logo from "../images/Logo.png";
+
 export default function Footer() {
   return (
     <div className="footer">
-      <div className="grid__container--footer">
-        <span className="footer__statement">We help all traders become profitable and consistent
-          traders in the stock market.</span>
-        <div className="copyright">
-          <span className="footer__logo">LOGO Stock Method</span>
+      <div className="footer__grid-container">
+        <span className="footer__statement grid-span-12">We help all traders become profitable and consistent traders in the stock market.</span>
+        <div className="footer__column grid-span-6 flex-column">
+          <img src={logo} className="footer__logo-image" alt="logo"></img>
           <span className="footer__copyright">Copyright © 2022 Stock Method</span>
         </div>
-        <div className="explore">
-          <ul className="explore__list">
-            <li className="footer__h">Explore</li>
-            <li className="explore__list--item">Home</li>
-            <li className="explore__list--item">Learn</li>
-            <li className="explore__list--item">About</li>
-            <li className="explore__list--item">Community</li>
+        <div className="footer__column grid-span-2">
+          <ul className="footer__list">
+            <li className="footer__item-heading">Explore</li>
+            <li className="footer__item">Home</li>
+            <li className="footer__item">Learn</li>
+            <li className="footer__item">About</li>
+            <li className="footer__item">Community</li>
           </ul>
         </div>
-        <div className="legal">
-          <ul className="legal__list">
-            <li className="footer__h">Legal</li>
-            <li className="legal__list--item">Contact</li>
-            <li className="legal__list--item">Privacy</li>
-            <li className="legal__list--item">Terms and Conditions</li>
-            <li className="legal__list--item">Refund Policy</li>
+        <div className="footer__column grid-span-2">
+          <ul className="footer__list">
+            <li className="footer__item-heading">Legal</li>
+            <li className="footer__item">Contact</li>
+            <li className="footer__item">Privacy</li>
+            <li className="footer__item">Terms and Conditions</li>
+            <li className="footer__item">Refund Policy</li>
           </ul>
         </div>
-        <div className="social">
-          <ul className="social__list">
-            <li className="footer__h">Follow</li>
-            <li className="social__list--item">X Instagram</li>
-            <li className="social__list--item">X Youtube</li>
-            <li className="social__list--item">X Discord</li>
+        <div className="footer__column grid-span-2">
+          <ul className="footer__list">
+            <li className="footer__item-heading">Follow</li>
+            <li className="footer__item">X Instagram</li>
+            <li className="footer__item">X Youtube</li>
+            <li className="footer__item">X Discord</li>
           </ul>
         </div>
-        <span className="footer__authors">Design and Development by Martina Molnar and Luka Matić</span>
+        <span className="footer__authors grid-span-6">
+          Design and Development by <span className="color-light">Martina Molnar</span> and <span className="color-light">Luka Matić</span>
+        </span>
       </div>
     </div>
   );
