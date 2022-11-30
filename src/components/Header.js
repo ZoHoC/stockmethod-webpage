@@ -7,7 +7,7 @@ export default function Header(props) {
     <header className={`header ${navToggle}`}>
       <div className="header__nav-container">
         <div className="header__logo-image">
-          <Link to="#" className="home__link" onClick={props.handleClick}>
+          <Link to="#" className="home__link" onClick={props.handleClickHome}>
             <img src={logo} alt="logo"></img>
           </Link>
         </div>

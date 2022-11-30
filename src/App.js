@@ -9,9 +9,13 @@ function App() {
     setToggle(prevToggle => !prevToggle);
   }
 
+  function handleClickHome() {
+    setToggle(false);
+  }
+
   return (
     <div className="App">
-      <Header toggle={toggle} handleClick={handleClick} />
+      <Header toggle={toggle} handleClick={handleClick} handleClickHome={handleClickHome} />
       <Footer />
     </div>
   );
