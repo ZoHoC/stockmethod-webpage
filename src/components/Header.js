@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../images/Logo.png";
+import "../css/style.css";
 
 export default function Header(props) {
   const navToggle = props.toggle ? "nav-open" : "";

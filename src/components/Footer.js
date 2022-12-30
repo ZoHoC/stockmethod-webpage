@@ -1,8 +1,9 @@
 import logo from "../images/Logo.png";
+import "../css/style.css";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="footer__grid-container">
         <span className="footer__statement grid-span-12">We help all traders become profitable and consistent traders in the stock market.</span>
         <div className="footer__column grid-span-6 flex-column">
@@ -41,6 +42,6 @@ export default function Footer() {
           </span>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
