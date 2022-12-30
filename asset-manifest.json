@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/stockmethod-webpage/static/css/main.efb0ad8a.css",
-    "main.js": "/stockmethod-webpage/static/js/main.66d60d75.js",
+    "main.css": "/stockmethod-webpage/static/css/main.87e18583.css",
+    "main.js": "/stockmethod-webpage/static/js/main.4c1fb70a.js",
     "static/js/787.e492202d.chunk.js": "/stockmethod-webpage/static/js/787.e492202d.chunk.js",
     "index.html": "/stockmethod-webpage/index.html",
-    "main.efb0ad8a.css.map": "/stockmethod-webpage/static/css/main.efb0ad8a.css.map",
-    "main.66d60d75.js.map": "/stockmethod-webpage/static/js/main.66d60d75.js.map",
+    "main.87e18583.css.map": "/stockmethod-webpage/static/css/main.87e18583.css.map",
+    "main.4c1fb70a.js.map": "/stockmethod-webpage/static/js/main.4c1fb70a.js.map",
     "787.e492202d.chunk.js.map": "/stockmethod-webpage/static/js/787.e492202d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efb0ad8a.css",
-    "static/js/main.66d60d75.js"
+    "static/css/main.87e18583.css",
+    "static/js/main.4c1fb70a.js"
   ]
 }
